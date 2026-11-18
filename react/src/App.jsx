@@ -5,7 +5,7 @@ export default function App() {
 
   return (
     <main>
-      <h1>Hello from React 👋</h1>
+      <h1>Hello from subham 👋</h1>
       <p>Edit <code>src/App.jsx</code> and save — the preview updates instantly.</p>
       <button onClick={() => setCount((c) => c + 1)}>Clicked {count} times</button>
     </main>
