@@ -1,0 +1,27 @@
+{
+  "react": {
+    "label": "React",
+    "description": "React + Vite single-page app with hot reload",
+    "entry": "src/App.jsx",
+    "run": "npm install; npm run dev -- --port {{PORT}} --strictPort --host 127.0.0.1",
+    "preview": "port"
+  },
+  "python": {
+    "label": "Python",
+    "description": "Python 3 script with interactive console input",
+    "entry": "main.py",
+    "run": "{{PYTHON}} -u main.py"
+  },
+  "node": {
+    "label": "Node.js",
+    "description": "Plain Node.js script",
+    "entry": "index.js",
+    "run": "node index.js"
+  },
+  "html": {
+    "label": "HTML/CSS/JS",
+    "description": "Static website with live preview",
+    "entry": "index.html",
+    "preview": "static"
+  }
+}
