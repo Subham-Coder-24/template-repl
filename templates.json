@@ -6,6 +6,13 @@
     "run": "npm install; npm run dev -- --port {{PORT}} --strictPort --host 127.0.0.1",
     "preview": "port"
   },
+  "nextjs": {
+    "label": "Next.js",
+    "description": "Next.js app router with a client component and an API route",
+    "entry": "app/page.js",
+    "run": "npm install; npm run dev -- --port {{PORT}} --hostname 127.0.0.1",
+    "preview": "port"
+  },
   "python": {
     "label": "Python",
     "description": "Python 3 script with interactive console input",
