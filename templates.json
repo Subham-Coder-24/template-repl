@@ -3,32 +3,37 @@
     "label": "React",
     "description": "React + Vite single-page app with hot reload",
     "entry": "src/App.jsx",
-    "run": "npm install; npm run dev -- --port {{PORT}} --strictPort --host 127.0.0.1",
+    "runtime": "node",
+    "run": "npm install; npm run dev -- --port {{PORT}} --strictPort --host 0.0.0.0",
     "preview": "port"
   },
   "nextjs": {
     "label": "Next.js",
     "description": "Next.js app router with a client component and an API route",
     "entry": "app/page.js",
-    "run": "npm install; npm run dev -- --port {{PORT}} --hostname 127.0.0.1",
+    "runtime": "node",
+    "run": "npm install; npm run dev -- --port {{PORT}} --hostname 0.0.0.0",
     "preview": "port"
   },
   "python": {
     "label": "Python",
     "description": "Python 3 script with interactive console input",
     "entry": "main.py",
-    "run": "{{PYTHON}} -u main.py"
+    "runtime": "python",
+    "run": "python -u main.py"
   },
   "node": {
     "label": "Node.js",
     "description": "Plain Node.js script",
     "entry": "index.js",
+    "runtime": "node",
     "run": "node index.js"
   },
   "html": {
     "label": "HTML/CSS/JS",
     "description": "Static website with live preview",
     "entry": "index.html",
+    "runtime": "node",
     "preview": "static"
   }
 }
